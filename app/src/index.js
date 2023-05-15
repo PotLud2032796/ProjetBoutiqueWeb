@@ -8,6 +8,7 @@ import './index.css';
 //Component
 import PagePrincipalComponent from './Components/PagePrincipalComponent';
 import PageProduitComponent from './Components/PageProduitComponent';
+import PageErreurComponent from './Components/PageErreurComponent';
 
 //Route
 const router = createBrowserRouter([
@@ -16,11 +17,17 @@ const router = createBrowserRouter([
     element: <PagePrincipalComponent/>
   },
   {
-    path:"/Produit/:id",
+    path:"/Produit/:id?",
     loader: async({params}) =>{
+
+      if (!params.id) {
+        throw new Error('Missing ID');
+      }
+
       return fetch(`http://localhost:3000/produits/${params.id}`);
     },
-    element: <PageProduitComponent/>
+    element: <PageProduitComponent/>,
+    errorElement: <PageErreurComponent/>
   }
 ])
 
