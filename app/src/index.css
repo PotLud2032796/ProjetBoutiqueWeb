@@ -5,10 +5,13 @@ body {
 .btn, .btn:visited {
   background-color: #fe796f;
   color: white;
+  font-size: 14pt;
+  color: white;
 }
 
 .btn:active, .btn:hover {
   background-color: #ff5a57;
+  color: white;
 }
 
 #header {
@@ -36,6 +39,17 @@ body {
 .card-text {
   text-align: center;
   font-size: 12pt;
+  font-weight: bold;
+}
+
+#detail {
+  background-color: white;
+}
+
+h1 {
+  font-color: #fe796f;
+  text-align: center;
+  font-size: 30pt;
   font-weight: bold;
 }
 

@@ -16,7 +16,10 @@ const router = createBrowserRouter([
     element: <PagePrincipalComponent/>
   },
   {
-    path:"/Produit",
+    path:"/Produit/:id",
+    loader: async({params}) =>{
+      return fetch(`http://localhost:3000/produits/${params.id}`);
+    },
     element: <PageProduitComponent/>
   }
 ])

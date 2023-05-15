@@ -1,43 +1,48 @@
 {
-  "produit": [
+  "produits": [
     {
       "id": 1,
       "nom": "tshirt col rond",
-      "description": "tshirt insane",
-      "prix": "12.50$",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend porttitor metus, ut volutpat purus egestas molestie. Nulla sodales sem in ante semper, porttitor viverra risus ornare. Suspendisse potenti. Pellentesque at bibendum quam. In hac habitasse platea dictumst. Integer at lobortis sem, sed tempus turpis. Nulla condimentum dolor pulvinar massa porta, sed consequat quam auctor. Suspendisse commodo velit mi, in dictum nulla suscipit eu. Phasellus rhoncus ultrices turpis. Curabitur ullamcorper placerat lorem nec accumsan. Nulla sed nisi purus. Pellentesque ullamcorper purus at nunc scelerisque, ut malesuada magna pharetra. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+      "prix": "12.50",
       "disponible": "disponible",
+      "image": "https://via.placeholder.com/460x640",
       "nbInventaire": 12
     },
     {
       "id": 2,
       "nom": "tshirt col rond",
-      "description": "tshirt insane",
-      "prix": "12.50$",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend porttitor metus, ut volutpat purus egestas molestie. Nulla sodales sem in ante semper, porttitor viverra risus ornare. Suspendisse potenti. Pellentesque at bibendum quam. In hac habitasse platea dictumst. Integer at lobortis sem, sed tempus turpis. Nulla condimentum dolor pulvinar massa porta, sed consequat quam auctor. Suspendisse commodo velit mi, in dictum nulla suscipit eu. Phasellus rhoncus ultrices turpis. Curabitur ullamcorper placerat lorem nec accumsan. Nulla sed nisi purus. Pellentesque ullamcorper purus at nunc scelerisque, ut malesuada magna pharetra. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+      "prix": "12.50",
       "disponible": "non disponible",
-      "nbInventaire": 12
+      "image": "https://via.placeholder.com/460x640",
+      "nbInventaire": 0
     },
     {
       "id": 3,
       "nom": "tshirt col rond",
-      "description": "tshirt insane",
-      "prix": "12.50$",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend porttitor metus, ut volutpat purus egestas molestie. Nulla sodales sem in ante semper, porttitor viverra risus ornare. Suspendisse potenti. Pellentesque at bibendum quam. In hac habitasse platea dictumst. Integer at lobortis sem, sed tempus turpis. Nulla condimentum dolor pulvinar massa porta, sed consequat quam auctor. Suspendisse commodo velit mi, in dictum nulla suscipit eu. Phasellus rhoncus ultrices turpis. Curabitur ullamcorper placerat lorem nec accumsan. Nulla sed nisi purus. Pellentesque ullamcorper purus at nunc scelerisque, ut malesuada magna pharetra. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+      "prix": "12.50",
       "disponible": "disponible",
+      "image": "https://via.placeholder.com/460x640",
       "nbInventaire": 12
     },
     {
       "id": 4,
       "nom": "tshirt col rond",
-      "description": "tshirt insane",
-      "prix": "12.50$",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend porttitor metus, ut volutpat purus egestas molestie. Nulla sodales sem in ante semper, porttitor viverra risus ornare. Suspendisse potenti. Pellentesque at bibendum quam. In hac habitasse platea dictumst. Integer at lobortis sem, sed tempus turpis. Nulla condimentum dolor pulvinar massa porta, sed consequat quam auctor. Suspendisse commodo velit mi, in dictum nulla suscipit eu. Phasellus rhoncus ultrices turpis. Curabitur ullamcorper placerat lorem nec accumsan. Nulla sed nisi purus. Pellentesque ullamcorper purus at nunc scelerisque, ut malesuada magna pharetra. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+      "prix": "12.50",
       "disponible": "disponible",
+      "image": "https://via.placeholder.com/460x640",
       "nbInventaire": 12
     },
     {
       "id": 5,
       "nom": "tshirt col rond",
-      "description": "tshirt insane",
-      "prix": "12.50$",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eleifend porttitor metus, ut volutpat purus egestas molestie. Nulla sodales sem in ante semper, porttitor viverra risus ornare. Suspendisse potenti. Pellentesque at bibendum quam. In hac habitasse platea dictumst. Integer at lobortis sem, sed tempus turpis. Nulla condimentum dolor pulvinar massa porta, sed consequat quam auctor. Suspendisse commodo velit mi, in dictum nulla suscipit eu. Phasellus rhoncus ultrices turpis. Curabitur ullamcorper placerat lorem nec accumsan. Nulla sed nisi purus. Pellentesque ullamcorper purus at nunc scelerisque, ut malesuada magna pharetra. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+      "prix": "12.50",
       "disponible": "disponible",
+      "image": "https://via.placeholder.com/460x640",
       "nbInventaire": 12
     }
   ],
