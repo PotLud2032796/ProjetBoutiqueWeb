@@ -1,13 +1,30 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
+import 'bootstrap/dist/css/bootstrap.css';
 import reportWebVitals from './reportWebVitals';
+import { createBrowserRouter, RouterProvider, Navigate, redirect } from 'react-router-dom';
+import './index.css';
+
+//Component
+import PagePrincipalComponent from './Components/PagePrincipalComponent';
+import PageProduitComponent from './Components/PageProduitComponent';
+
+//Route
+const router = createBrowserRouter([
+  {
+    path:"/",
+    element: <PagePrincipalComponent/>
+  },
+  {
+    path:"/Produit",
+    element: <PageProduitComponent/>
+  }
+])
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <RouterProvider router={router}/>
   </React.StrictMode>
 );
 

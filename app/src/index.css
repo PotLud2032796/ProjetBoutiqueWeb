@@ -1,13 +1,42 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background: #ffeead;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.btn, .btn:visited {
+  background-color: #fe796f;
+  color: white;
 }
+
+.btn:active, .btn:hover {
+  background-color: #ff5a57;
+}
+
+#header {
+  background-color: #96ceb4;
+}
+
+.nav-link {
+  font-size: 20pt;
+  color: white;
+}
+
+.nav-link:hover {
+  color: #ff5a57;
+}
+
+#feed {
+  margin: 10px;
+}
+
+.card-title {
+  text-align: center;
+  font-size: 18pt;
+}
+
+.card-text {
+  text-align: center;
+  font-size: 12pt;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=index.css.map */
