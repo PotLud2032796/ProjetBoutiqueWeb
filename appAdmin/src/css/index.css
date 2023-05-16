@@ -1,0 +1,89 @@
+.navbar {
+  background-color: #96ceb4 !important;
+}
+
+.nav-link {
+  background-color: #96ceb4 !important;
+  color: #ff6f69 !important;
+  font-weight: bold !important;
+  font-size: 17px !important;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #ffeead !important;
+  width: 100% !important;
+}
+
+.img-size {
+  height: 200px !important;
+  widows: 200px !important;
+}
+
+.price-stock {
+  font-weight: lighter !important;
+  font-size: 18px !important;
+}
+
+.buttonEdit {
+  background-color: #ff6f69 !important;
+  color: white !important;
+  border: 1px solid #ff6f69;
+  border-radius: 7px;
+}
+
+.card {
+  background-color: white !important;
+  border: none !important;
+  color: #ff6f69 !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.footer-style {
+  color: #ff6f69 !important;
+}
+
+.navbar-brand {
+  height: 120px;
+  width: 120px;
+}
+
+.bi-person-circle, .bi-file-earmark-plus-fill, .bi-house-door-fill {
+  margin-right: 10px !important;
+  font-size: 18px;
+}
+
+.form-layout {
+  background-color: #ffeead !important;
+  border: 1px solid #ffeead;
+  border-radius: 40px !important;
+  color: #ff6f69;
+  font-weight: bold;
+}
+
+.form-size {
+  width: 25% !important;
+}
+
+.input-layout {
+  background-color: #ff6f69 !important;
+  border: 5px solid #ff6f69 !important;
+  border-radius: 30px;
+  color: #ffeead !important;
+}
+
+.buttonForm {
+  font-weight: bold;
+  border: 1px solid #ffeead;
+  border-radius: 40px !important;
+  background-color: #ff6f69;
+  color: #ffeead;
+}
+
+/*# sourceMappingURL=index.css.map */

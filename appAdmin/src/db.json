@@ -1,0 +1,12 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "nom": "Card title",
+            "imageSrc": "asfasfasf",
+            "details": "Test",
+            "stock": "20",
+            "prix": "19.95"
+        }
+    ]
+}
