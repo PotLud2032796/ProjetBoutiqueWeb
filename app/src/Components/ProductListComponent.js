@@ -18,7 +18,7 @@ function ProductListComponent(props) {
                   id={element.id}
                   nom={element.nom}
                   prix={element.prix}
-                  image = {element.image}
+                  image = {element.imageSrc}
                   disponible = {element.disponible}
                 />
             ));

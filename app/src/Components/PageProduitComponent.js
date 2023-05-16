@@ -5,16 +5,16 @@ import { useLoaderData } from "react-router-dom";
 function PageProduitComponent(props) {
     const {id} = useLoaderData();
     const {nom} = useLoaderData();
-    const {description} = useLoaderData();
+    const {details} = useLoaderData();
     const {prix} = useLoaderData();
     const {disponible} = useLoaderData();
-    const {image} = useLoaderData();
-    const {nbInventaire} = useLoaderData();
+    const {imageSrc} = useLoaderData();
+    const {stock} = useLoaderData();
 
 
     var page = <>
         <HeaderComponent/>
-        <InfoComponent id={id} titre={nom} prix={prix} disponible={disponible} restant={nbInventaire} image={image} description={description}/>
+        <InfoComponent id={id} titre={nom} prix={prix} disponible={disponible} restant={stock} image={imageSrc} description={details}/>
     </>
 
     return page;

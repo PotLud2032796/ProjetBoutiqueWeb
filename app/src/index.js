@@ -28,7 +28,20 @@ const router = createBrowserRouter([
     },
     element: <PageProduitComponent/>,
     errorElement: <PageErreurComponent/>
-  }
+  },
+  {
+    path:"/Acheter/:id?",
+    loader: async({params}) =>{
+
+      if (!params.id) {
+        throw new Error('Missing ID');
+      }
+
+      return fetch(`http://localhost:3000/produits/${params.id}`);
+    },
+    element: <PageProduitComponent/>,
+    errorElement: <PageErreurComponent/>
+  },
 ])
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

@@ -1,7 +1,7 @@
 import { useLoaderData } from "react-router-dom";
 
 function InfoComponent(props) {
-    const route = `/Acheter/${props.id}`;
+    const route = `https://buy.stripe.com/test_fZedRz2O0fNDa7mbII`;
     var bouttonAchat = <a href={route} className="btn w-50">Acheter</a>
 
     if(props.disponible == "non disponible")
